@@ -81,7 +81,15 @@ with st.form("Projectos"):
     with a5:
         pass
     
-
+    st.write("Sou um estudante de programação e desenvolvedor freelancer."
+            " Meu objetivo é criar aplicações web envolventes e visualmente impressionantes, através de código cuidadosamente elaborado e design centrado no usuário.",
+            " Estou sempre em busca de novos desafios e oportunidades para aprimorar minhas habilidades e contribuir para projetos inovadores.",
+            " Se você está procurando um desenvolvedor apaixonado e dedicado para transformar suas ideias em realidade")
+    
+st.write("")
+st.write("")
+st.write("")
+    
 
     
 with st.form("Outros"):  
@@ -117,3 +125,5 @@ with st.form("Outros"):
         
     with a5:
             pass
+    
+    st.write("Se você está procurando um desenvolvedor apaixonado e dedicado para transformar suas ideias em realidade, entre em contato comigo. Estou ansioso para colaborar com você e criar soluções digitais que superem suas expectativas.")
