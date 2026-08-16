@@ -1,4 +1,4 @@
-import app as home
+import home as home
 import streamlit as st
 
 if home.botao_meus_projetos:
