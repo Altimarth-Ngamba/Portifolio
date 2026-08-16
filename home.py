@@ -98,7 +98,7 @@ with col1:
 with col2:
 
     st.image(
-        "assets/img/port.png",
+        "assets/img/alth.png",
         width=400
     )
 

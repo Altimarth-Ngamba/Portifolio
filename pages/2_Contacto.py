@@ -47,12 +47,8 @@ with col1:
 
     st.subheader("📧 Email")
 
-    st.write(
-        "O teu email profissional aparecerá aqui."
-    )
-
-    st.info(
-        "Adiciona aqui o teu endereço de email."
+    email = st.write(
+        "altimarthngamba1@gmail.com"
     )
 
 
@@ -61,11 +57,7 @@ with col2:
     st.subheader("💻 GitHub")
 
     st.write(
-        "É onde podes encontrar os meus projetos e código."
-    )
-
-    st.info(
-        "Adiciona aqui o teu perfil do GitHub."
+        "https://github.com/Altimarth-Ngamba"
     )
 
 
@@ -99,7 +91,7 @@ with col1:
 
     st.link_button(
         "🐙 Visitar GitHub",
-        "https://github.com/"
+        "https://github.com/Altimarth-Ngamba"
     )
 
 
@@ -113,22 +105,20 @@ with col2:
 
     st.link_button(
         "💼 Visitar LinkedIn",
-        "https://www.linkedin.com/"
+        "https://www.linkedin.com/in/altimarth-ngamba"
     )
 
 
 with col3:
 
     st.subheader("WhatsApp")
-
-    st.write(
-        "Contacto direto para assuntos profissionais."
-    )
-
-    st.info(
-        "Adiciona aqui o teu link do WhatsApp."
-    )
-
+    
+    st.write("Entrar em contacto via whatsApp")
+    
+    st.link_button(
+            "Visitar WhatsApp",
+            "https://wa.link/182zme"
+        )
 
 st.divider()
 
